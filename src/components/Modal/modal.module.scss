@@ -11,7 +11,7 @@
   opacity: 0;
   visibility: hidden;
   transition: all .2s;
-  &:active{
+  &.active{
     opacity: 1;
     visibility: visible;
     
@@ -27,7 +27,7 @@
   visibility: hidden;
   transform: scale(0);
   transition: all .2s;
-  &:active{
+  &.active{
     opacity: 1;
     visibility: visible;
     transform: scale(1);
